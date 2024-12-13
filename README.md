@@ -19,4 +19,5 @@ Dependencies: <br>
   <li>Fonts from googleapis.com</li>
   <li> images in the PICS folder</li>
   <li> stylesheet (css) named style.cssfolder</li>
+  <li> Github repositories in project section</li>
 </ul>
