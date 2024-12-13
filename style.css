@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html, body{
+    scroll-behavior: smooth;
+}
+
+
+header li, header a, button{
+    font-family: "Bebas Neue", Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    background-color: black;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-image: url(PICS/bgimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.bar{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    padding: 0;
+    color: #edf0f1;
+    background-color: black;
+    font-family: "Work Sans", sans-serif;
+
+}
+.topbar{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0;
+
+}
+.topbar li{
+    display: inline-block;
+    padding: 0 20px;
+    
+
+}
+
+.topbar li a{
+    transition: all 0.5s ease;
+    animation:reverse;
+}
+
+.topbar li a:hover {
+    transition: all 0.5s ease;
+    color: gray;
+    height: 100px;
+    width: 100px;
+}
+
+#menbtn{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#menbtn:hover{
+    background-color:rgba(0,136,169,0.7);
+    box-shadow: 4px 4px 10px rgb(8, 16, 85);
+}
+
+#menbtn:active{
+    opacity: 0.7;
+}
+
+.bg{
+    background-image: url(PICS/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.page-wrapper {
+    background-color: transparent;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    position: relative;
+    top: 280px;
+    max-width: fit-content;
+    margin-inline: auto;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+
+
+  }
+
+
+.page-wrapper p {
+    font-size: 50px;
+    text-align: center;
+   position: relative;
+
+    margin-bottom: 20px;
+    
+}
+
+.page-wrapper h3{
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.page-wrapper .btn {
+    background: transparent;
+    color:  white;
+    text-decoration: none;
+    font-weight: 2000;
+    font-size: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.abt-sect{
+    padding: 50px 20px;
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    color: white;
+    margin-inline: auto;
+    scroll-snap-type: y mandatory;
+
+}
+.abt-sect .btn {
+    background: transparent;
+    color:  white;
+    text-decoration: none;
+    font-weight: 2000;
+    font-size: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+.abt-content{
+    color: white;
+    text-align: center;
+    margin-inline: auto;
+    padding: 50px 20px;
+    text-align: center;
+    transform: translate(0, 225px);
+    max-width: fit-content;
+ 
+}
+.abt-sect p {
+    font-size: 75px;
+    color: white;
+}
+
+.desc-sect{
+    position: relative;
+    height: 100vh;
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
+.desc-sect .btn {
+    background: transparent;
+    color:  white;
+    text-decoration: none;
+    font-weight: 2000;
+    font-size: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+.grid{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.abt-top{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 10px;
+    font-size: 30px;
+    position: relative;
+    top: 10%;
+    text-align: center;
+}
+
+#picture{
+    position: relative;
+    left: 35%;
+    top: 30%;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+#picture img{
+    height: 200px;
+    width: 200px;
+    border: 1px;
+    border-radius: 30px;
+}
+.desc-content{
+    position: relative;
+    top: 30%;
+}
+
+
+#desc-content1{
+    white-space: pre-line;
+    line-height: 30px;
+    text-align: left;
+}
+
+#desc-content2{
+    position: relative;
+    top: 130px;
+    text-align: left;
+
+
+}
+#desc-content2 h1{
+    
+    text-align: center;
+}
+
+.skills {
+    display:grid;
+    flex-wrap:nowrap;
+    gap: 25px;
+    
+}
+
+.card {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    height: 110px;
+  
+}
+
+#desc-content3{
+    text-align: left;
+    position: relative;
+    top: 130px;
+    text-align: left;
+
+}
+#desc-content3 h1{
+
+    text-align: center;
+}
+
+.educ {
+    display:grid;
+    flex-wrap:nowrap;
+    gap: 25px;
+    
+    
+}
+
+.proj-title{
+    position: relative;
+    padding: 50px 20px;
+    text-align: center;
+    height: 100vh;
+    color: white;
+    margin-inline: auto;
+    scroll-snap-type: y mandatory;
+
+}
+.proj-title .btn {
+    background: transparent;
+    color:  white;
+    text-decoration: none;
+    font-weight: 2000;
+    font-size: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+.proj-title1{
+    color: white;
+    text-align: center;
+    margin-inline: auto;
+    padding: 50px 20px;
+    text-align: center;
+    transform: translate(0, 225px);
+    max-width: fit-content;
+ 
+}
+.proj-title p {
+    font-size: 75px;
+    color: white;
+}
+
+.grid2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.proj-content{
+    height: 100vh;
+    position: relative;
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
+.proj-top{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 10px;
+    font-size: 30px;
+    position: relative;
+    top: 12%;
+    text-align: center;
+}
+.proj-content1{
+    position: relative;
+    top: 130px;
+    background: #e3dfdf;
+    text-align: justify;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.799);
+    overflow: hidden;
+    width: 450px;
+
+}
+
+.proj-content1 h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.proj-content1 #word{
+    text-align: center;
+}
+
+.grid2 a{
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.grid2 a:hover{
+    
+    transform:scale(1.1);
+    z-index:2;
+}
+
+.proj-content1 img{
+    width: 100%;
+    height: 250px;
+}
+.proj-content .btn {
+    background: transparent;
+    color:  white;
+    text-decoration: none;
+    font-weight: 2000;
+    font-size: 20px;
+    position: relative;
+    left: 50%;
+    top:25%;
+}
+
+.contact-info{
+        height: 20vh;
+        position: relative;
+        background-color: #37ff14ac;
+        color: rgb(255, 255, 255);
+}
+.contact-top{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 10px;
+    font-size: 15px;
+    position: relative;
+    top: 12%;
+    text-align: center;
+}
+
+.contact-cont{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;    
+    top:25%;
+
+
+}
+.child{
+    text-align: center;
+    line-height: 0px;
+    
+}
+
+.contact-cont a{
+    text-decoration: none;
+    color: white;
+    line-height: 20px;
+    transition: all 0.5s ease;
+
+}
+
+.contact-cont a:hover{
+    font-size: 20px;
+    z-index:2;
+}
+.contact-cont p{
+    line-height: 20px;
+}
+.align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child img{
+    position:relative;
+    width: 25px;
+    height: 20px;
+    z-index: 1000;
+    margin-left: 20px;
+}
+.child h4{
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+}
+.child h3{
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.footer{
+    height: 10vh;
+    position: relative;
+    background-color: #000000ac;
+    color: rgb(255, 255, 255);
+}
+
+.footer-cont{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;  
+    letter-spacing: 10px;
+    font-family:sans-serif;  
+    top: 50%;   
+
+
+}
+.child-ft{
+    text-align: center;
+    line-height: 0px;
+    
+}
+
+#ft-child{
+    position: relative;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;  
+    letter-spacing: 5px;
+    font-family:'Times New Roman', Times, serif;  
+    top: 40%;   
+}
