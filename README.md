@@ -17,9 +17,9 @@ These arrows will take you to the next section of the portfolio<br><br>
 The first section, the home page, shows my name and intro to my webpage.<br>
 The second section is the introduction page to the About me page.<br>
 The third section is the about me page, this page showcases my skills, education, a short description of me, and a picture of me.<br>
-The fourth section is the title page for my projects<br>
-The fifth section is where I showcased my project<br>
-The last page contains the footer and my contact informations<br>
+The fourth section is the title page for my projects.<br>
+The fifth section is where I showcased my project.<br>
+The last page contains the footer and my contact informations.<br>
 
 <br>
 Dependencies: <br>
