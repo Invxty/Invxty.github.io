@@ -59,8 +59,6 @@ body{
 .topbar li{
     display: inline-block;
     padding: 0 20px;
-    
-
 }
 
 .topbar li a{
@@ -93,6 +91,9 @@ body{
     opacity: 0.7;
 }
 
+
+
+
 .bg{
     background-image: url(PICS/Background.jpg);
     background-repeat: no-repeat;
@@ -112,8 +113,6 @@ body{
     margin-inline: auto;
     scroll-snap-type: y mandatory;
     height: 100vh;
-
-
   }
 
 
@@ -121,7 +120,6 @@ body{
     font-size: 50px;
     text-align: center;
    position: relative;
-
     margin-bottom: 20px;
     
 }
@@ -140,6 +138,10 @@ body{
     font-size: 20px;
     transition: background 0.3s, color 0.3s;
 }
+
+
+
+
 
 .abt-sect{
     padding: 50px 20px;
@@ -161,7 +163,6 @@ body{
 }
 .abt-content{
     color: white;
-    text-align: center;
     margin-inline: auto;
     padding: 50px 20px;
     text-align: center;
@@ -173,6 +174,11 @@ body{
     font-size: 75px;
     color: white;
 }
+
+
+
+
+
 
 .desc-sect{
     position: relative;
@@ -232,11 +238,8 @@ body{
     position: relative;
     top: 130px;
     text-align: left;
-
-
 }
 #desc-content2 h1{
-    
     text-align: center;
 }
 
@@ -261,11 +264,9 @@ body{
     text-align: left;
     position: relative;
     top: 130px;
-    text-align: left;
 
 }
 #desc-content3 h1{
-
     text-align: center;
 }
 
@@ -273,9 +274,13 @@ body{
     display:grid;
     flex-wrap:nowrap;
     gap: 25px;
-    
-    
 }
+
+
+
+
+
+
 
 .proj-title{
     position: relative;
@@ -300,7 +305,6 @@ body{
     text-align: center;
     margin-inline: auto;
     padding: 50px 20px;
-    text-align: center;
     transform: translate(0, 225px);
     max-width: fit-content;
  
@@ -309,6 +313,15 @@ body{
     font-size: 75px;
     color: white;
 }
+
+
+
+
+
+
+
+
+
 
 .grid2{
     display: flex;
@@ -377,6 +390,13 @@ body{
     left: 50%;
     top:25%;
 }
+
+
+
+
+
+
+
 
 .contact-info{
         height: 20vh;
@@ -448,6 +468,12 @@ body{
     font-size: 30px;
     text-align: center;
 }
+
+
+
+
+
+
 
 
 .footer{
