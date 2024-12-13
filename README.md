@@ -11,8 +11,8 @@ information that will help in knowing me better! <br>
 Instructions: <br>
 This portfolio is currently available only to zoom 75% to 110%, getting past these values will make the content too streched or squeezed in. No breakpoints were added. :( I will add them soon!<br><br>
 Navigation:<br>
-To navigate the portfolio, you can either use the navbar by clicking the respective buttons, or by using the arrow button found in every section of the portfolio<br>
-these arrows will take you to the next section of the portfolio<br><br>
+To navigate the portfolio, you can either use the navbar by clicking the respective buttons, or by using the arrow button found in every section of the portfolio.
+These arrows will take you to the next section of the portfolio<br><br>
 
 The first section, the home page, shows my name and intro to my webpage.<br>
 The second section is the introduction page to the About me page.<br>
