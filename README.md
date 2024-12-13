@@ -2,7 +2,7 @@
 Personal Portfolio
 
 
-This is submitted by John Nathaniel F. Abrigo of BSCS - 1104 batch (2024) <br>
+This is submitted by John Nathaniel F. Abrigo of BSCS - 1104 (2024) <br>
 <br>
 Introduction:
 This is my personal portfolio that demonstrates my current skills and creativity regarding html and css. This webpage is easy to navigate and contains <br>
